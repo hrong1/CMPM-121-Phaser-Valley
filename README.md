@@ -22,9 +22,9 @@
 - Localized And Support Three Different Written Languages
     - Our game supports three languages: English, Arabic, and Chinese. English is the primary language of the development team. For Arabic, which is the right-to-left script, we use Deepl to assist with translations. For Chinese, a logographic script, this is my native language, so I translated it by myself. To change the language in the game, players can do that by selecting the language buttons that are available on the main menu. These buttons are labeled with the respective language names. 
 - Installable on a Smartphone-class Mobile Device
-    - Our game is installable on iOS and mobile, thanks to the PWA tutorials posted in the class Discord.
+    - Using Phaser 3 as our game engine, the easiest way to make it work on a mobile device is by implementing a PWA. This is primarily done in JavaScript and involves using a service worker to cache necessary source code files and assets. The manifest.json file enables the PWA functionality, making the application installable on both desktop and mobile devices. During this process, we also include screenshots and an app logo to meet the requirements. Additionally, we implement game screen scaling and joystick control for the mobile version.
 - The game launches and runs even when the device is not connected to the internet
-    - Our game is playable offline.
+    - By utilizing manifest.json and file caching, we make it possible to play the game offline once it is fully loaded (i.e., cached) on the mobile device.
 
 ### Reflection
 
