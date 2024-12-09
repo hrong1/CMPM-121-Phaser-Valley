@@ -30,6 +30,9 @@
 
 Well, we managed to get F.3 finished.  We didn't manage to complete the conversion from Javascript to Typescript, but pretty much everythign else is functional.  In regards to our roles, we mostly kept to them - our tools lead did eventually set up Deno for the repository, our Design Lead made and translated the game, our other Design Lead handled mobile and offline development... and our Engine Lead failed at one of his two jobs.  The design didn't change much, but that's because it started as minimal as possible, and we were still behind every step of the way.  If everyone was working from the start, maybe we'd have had room to innovate, but as it stands there just wasn't any time.
 
+We initially didn't anticipate that the game would be ported to mobile phones. As a result, we did not allocate or design adequate space for the placement of touch controls, impacting its current usability on these devices. In the end, we must have a floating joystick over the content to make touch control functional.
+
+
 ## Devlog Entry F.2 - 12/8/2024
 
 ### Requirements
