@@ -3,8 +3,10 @@ class Title extends Phaser.Scene {
       super("titleScene");
     }
 
-    create (){
+    create() {
         let translations = getTranslations();
+        console.log(translations); // Add this line to log the translations object
+
         // Title Background
         const backGround = this.add.image(400, 300, "titlePage");
         this.buttonPressed = false;
